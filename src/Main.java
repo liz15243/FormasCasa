@@ -20,4 +20,16 @@ public class Main {
     //get y set
     //implementar obtenerArea
     //implementar obtenerPerimetro
+
+    public static void main(String[] args) {
+        Circulo circulo = new Circulo("Amarillo",true,4.5);
+        System.out.println(circulo.obtenerArea());
+        System.out.println(circulo.obtenerPerimetro());
+
+        Rectangulo rectangulo = new Rectangulo("Azul",false,5,10);
+        System.out.println(rectangulo.obtenerPerimetro());
+        System.out.println(rectangulo.obtenerPerimetro());
+    }
+
 }
+
